@@ -1,0 +1,3 @@
+# prevent site from being crawled
+User-agent: *
+Disallow: /

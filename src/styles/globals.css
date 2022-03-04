@@ -1,0 +1,50 @@
+:root {
+  --color-green: rgb(2, 66, 50);
+  --color-black: rgb(34, 34, 34);
+  --color-red: #e54c58;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Sofia Pro, Helvetica, Arial, sans-serif;
+  background-color: #e8e4df;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* charts */
+.tree-data:hover {
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: '\25BC';
+  position: absolute;
+  text-align: center;
+}
